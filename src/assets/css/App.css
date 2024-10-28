@@ -1,0 +1,112 @@
+/* src/assets/css/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: skyblue;
+}
+
+/* Contenedor principal */
+.container {
+  margin: 0 auto;
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+
+/* Contenedor del formulario */
+.form-container {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.form-container h1 {
+  text-align: center;
+}
+
+.list-container {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Media Query para pantallas de tamaño tablet */
+@media (max-width: 768px) {
+  .container {
+    width: 70%;
+    margin-top: 5%;
+  }
+  
+  input {
+    width: 90%;
+  }
+}
+
+/* Media Query para pantallas de tamaño móvil */
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    margin-top: 5%;
+  }
+
+  input {
+    width: 95%;
+  }
+}
